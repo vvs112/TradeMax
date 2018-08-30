@@ -1,2 +1,0 @@
-# TradeMax
-Test task
