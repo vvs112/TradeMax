@@ -33,7 +33,7 @@ public class TradeMaxTest {
         WebDriverRunner.setWebDriver(driver);
     }
 
-    @AfterClass
+    @AfterClass(alwaysRun = true)
     public void tearDown(){
         WebDriverRunner.clearBrowserCache();
         WebDriverRunner.closeWebDriver();
