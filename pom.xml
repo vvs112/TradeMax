@@ -63,6 +63,10 @@
                     </suiteXmlFiles>
                     <properties>
                         <property>
+                            <name>listener</name>
+                            <value>listeners.ReportGeneratorListener</value>
+                        </property>
+                        <property>
                             <name>usedefaultlisteners</name>
                             <value>false</value> <!-- disabling default listeners is optional -->
                         </property>
